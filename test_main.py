@@ -29,7 +29,7 @@ class TestSample(unittest.TestCase):
             params = case['params']
             result = post.test_post(case['params'])
 
-            # httpbin.orgは投げたPOSTをそのままこの形で返してくれるので
+            # httpbin.orgは投げたPOSTをformの中にそのまま返してくれるので、キーごとに同じか、のテスト
             # {
             #  'form': {
             #   'id': '11',
