@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run Python
-        run: python ./src/test_main.py
+        run: python ./test_main.py
